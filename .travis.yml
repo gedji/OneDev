@@ -6,7 +6,7 @@ jdk:
 script: 
   - echo 'Process starts ======== '
   - echo 'Installation of dependences'
-  - mvn clean install
+  - mvn clean install -pl server-core -am
 
 notifications:  
   email:  
